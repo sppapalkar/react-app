@@ -9,4 +9,4 @@ before_install:
     - docker build -t sppapalkar/react-app -f Dockerfile.dev .
 
 script:
-    docker run sppapalkar/react-app CI=true npm run test -- --coverage
+    docker run -e CI=true sppapalkar/react-app npm run test -- --coverage
