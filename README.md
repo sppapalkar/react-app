@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple react application setup with complete CD/CI pipeline for automated testing and deployment to AWS Elastic Beanstalk using Travis CI, Docker and Nginx server.
 
 ## Available Scripts
 
